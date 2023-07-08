@@ -1,0 +1,19 @@
+.Background {
+    background: #88CDE9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Img {
+    width: auto;
+    height: 100vh;
+}
+
+@media (max-width: 930px) {
+    .Img {
+        max-width: 100%;
+        height: auto;
+    }
+}
