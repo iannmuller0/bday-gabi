@@ -40,9 +40,8 @@ const InviteScreen = () => {
                  <span className="Date">Dia: 05 de Agosto  |  Hora: 19:30</span>
                  <span className="Local">Local: Russo Bar (Av. Bento Goncalves, 4183)</span>
                  <p className="Pink">Ir de rosa não é obrigatório, mas fortemente recomendado!</p>
-                 <span className="Info">
-                     Favor confirmar presença até dia 01 de Agosto.
-                     Podem levar acompanhantes, só me avisar!</span>
+                 <span className="Info">Favor confirmar presença até dia 01 de Agosto.</span>
+                 <span className="Info3">Podem levar acompanhantes, só me avisar!</span>
                  <span className="Info2">Comidinhas e bebidas do bar (dica: eles tem uma pizza maravilhosa!).</span>
              </div>
          </div>

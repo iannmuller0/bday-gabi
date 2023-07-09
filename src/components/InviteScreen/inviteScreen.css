@@ -16,109 +16,115 @@
 
 .Mirrorball {
     position: absolute;
-    height: 244px;
-    left: 268px;
+    height: 25.02vh;
+    left: 14vw;
     z-index: 1;
 }
 
 .Patriarchy {
     z-index: 4;
-    top: 62px;
+    top: 6.36vh;
     position: absolute;
-    left: 424px;
-    height: 308px;
+    left: 22.08vw;
+    height: 31.59vh;
 }
 
 .Ginger {
     position: absolute;
-    height: 408px;
+    height: 41.846vh;
     z-index: 2;
-    top: 220px;
-    left: 164px;
+    top: 22.56vh;
+    left: 8.54vw;
 }
 
 .Ticket {
     position: absolute;
-    height: 342px;
-    top: 202px;
+    height: 35.07vh;
+    top: 20.71vh;
     z-index: 5;
-    left: 591px;
+    left: 30.78vw;
 }
 
 .You {
     position: absolute;
-    height: 228px;
-    top: 662px;
+    height: 23.38vh;
+    top: 67.8974358974359vh;
     z-index: 6;
-    left: 252px;
+    left: 13.125vw;
 }
 
 .Gabi {
     position: absolute;
-    height: 530px;
-    top: 410px;
+    height: 54.35vh;
+    top: 42.05vh;
     z-index: 5;
-    left: 461px;
+    left: 24.01vw;
 }
 
 .Barbie {
     position: absolute;
-    top: 539px;
-    left: 200px;
+    top: 55.28vh;
+    left: 10.41vw;
     z-index: 4;
-    height: 175px;
+    height: 17.94vh;
 }
 
 .Celebrating {
-    margin-top: 105px;
-    margin-bottom: 60px;
-    height: 45px;
+    margin-top: 10.769vh;
+    margin-bottom: 6.15vh;
+    height: 4.615vh;
 }
 
 .Ceo {
     position: absolute;
-    top: 454px;
-    left: 672px;
-    height: 45px;
+    top: 46.56vh;
+    left: 35vw;
+    height: 4.61vh;
 }
 
 .Age {
-    height: 320px;
+    height: 32.820vh;
 }
 
 .Date {
-    font-size: 32px;
+    font-size: 26px;
     font-family: 'Bartex', serif;
     color: white;
-    margin: 54px 0 24px 0;
+    margin: 5.538vh 0 2.46vh 0;
 }
 
 .Local {
-    font-size: 32px;
+    font-size: 26px;
     font-family: 'Bartex', serif;
     color: white;
-    margin-bottom: 65px;
+    margin-bottom: 3.076vh;
 }
 
 .Pink {
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Montserrat', serif;
     color: #DE3389;
-    margin-bottom: 30px;
+    margin-bottom: 3.07vh;
 }
 
 .Info2 {
-    font-size: 18px;
+    font-size: 14px;
+    font-family: 'Montserrat', serif;
+    color: white;
+}
+
+.Info3 {
+    font-size: 14px;
     font-family: 'Montserrat', serif;
     color: white;
 }
 
 .Info {
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Montserrat', serif;
     color: white;
     word-break: break-word;
     text-align: center;
     word-wrap: break-word;
-    width: 46%;
+    max-width: 60%;
 }
