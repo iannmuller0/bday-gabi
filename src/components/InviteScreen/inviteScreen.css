@@ -1,0 +1,124 @@
+.Background {
+    background: #88CDE9;
+    display: flex;
+    height: 100vh;
+}
+
+.Column {
+    float: left;
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Mirrorball {
+    position: absolute;
+    height: 244px;
+    left: 268px;
+    z-index: 1;
+}
+
+.Patriarchy {
+    z-index: 4;
+    top: 62px;
+    position: absolute;
+    left: 424px;
+    height: 308px;
+}
+
+.Ginger {
+    position: absolute;
+    height: 408px;
+    z-index: 2;
+    top: 220px;
+    left: 164px;
+}
+
+.Ticket {
+    position: absolute;
+    height: 342px;
+    top: 202px;
+    z-index: 5;
+    left: 591px;
+}
+
+.You {
+    position: absolute;
+    height: 228px;
+    top: 662px;
+    z-index: 6;
+    left: 252px;
+}
+
+.Gabi {
+    position: absolute;
+    height: 530px;
+    top: 410px;
+    z-index: 5;
+    left: 461px;
+}
+
+.Barbie {
+    position: absolute;
+    top: 539px;
+    left: 200px;
+    z-index: 4;
+    height: 175px;
+}
+
+.Celebrating {
+    margin-top: 105px;
+    margin-bottom: 60px;
+    height: 45px;
+}
+
+.Ceo {
+    position: absolute;
+    top: 454px;
+    left: 672px;
+    height: 45px;
+}
+
+.Age {
+    height: 320px;
+}
+
+.Date {
+    font-size: 32px;
+    font-family: 'Bartex', serif;
+    color: white;
+    margin: 54px 0 24px 0;
+}
+
+.Local {
+    font-size: 32px;
+    font-family: 'Bartex', serif;
+    color: white;
+    margin-bottom: 65px;
+}
+
+.Pink {
+    font-size: 18px;
+    font-family: 'Montserrat', serif;
+    color: #DE3389;
+    margin-bottom: 30px;
+}
+
+.Info2 {
+    font-size: 18px;
+    font-family: 'Montserrat', serif;
+    color: white;
+}
+
+.Info {
+    font-size: 18px;
+    font-family: 'Montserrat', serif;
+    color: white;
+    word-break: break-word;
+    text-align: center;
+    word-wrap: break-word;
+    width: 46%;
+}
