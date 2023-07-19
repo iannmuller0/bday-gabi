@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   cursor: url('./assets/Pointer_option1_export.png'), auto;
+  background: #88CDE9;
 }
 
 code {

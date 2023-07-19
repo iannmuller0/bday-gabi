@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import LaunchScreen from "./components/launchScreen/launchScreen";
 import InviteScreen from "./components/InviteScreen/";
 
@@ -10,9 +10,9 @@ const Home = () => {
         const elem = document.getElementById('container');
         elem?.classList.add('fade-out');
         setTimeout(() => {
-            elem?.classList.remove('fade-out');
             setScreen(<InviteScreen />);
-        }, 1000)
+            elem?.classList.remove('fade-out');
+        }, 500)
 
     }, 3000);
 

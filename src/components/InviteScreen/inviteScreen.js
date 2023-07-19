@@ -17,6 +17,8 @@ const InviteScreen = () => {
     const [showTicket, setShowTicket] = useState(0);
 
     useEffect(()=> {
+        document.getElementById('invite').classList.add('fadein');
+
         if (showTicket > 0) {
             document.getElementById('modal').style.display = 'flex';
         } else {
@@ -40,7 +42,7 @@ const InviteScreen = () => {
     };
 
     return (
-         <div className="Background">
+         <div id='invite' className="Background">
             <div id='modal'  className='modal' onClick={() => { setShowTicket(0)}} >
                 <img className='modal-content' src={showTicket > 1 ? DrinkTicket : LitraoTicket} />
             </div>

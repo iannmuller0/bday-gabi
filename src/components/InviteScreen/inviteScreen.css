@@ -3,6 +3,7 @@
     background-size: cover;
     display: flex;
     height: 100vh;
+    animation:fadein 1s;
 }
 
 .Column {
@@ -50,7 +51,7 @@
       opacity: 1
     }
     100% {
-      opacity: 0.1
+      opacity: 0
     }
   }
 
