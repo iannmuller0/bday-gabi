@@ -27,7 +27,15 @@ const InviteMobileScreen = () => {
     const handleTicketClick = (value) => {
         setShowTicket(value);
 
-        setTimeout(() => { setShowTicket(0)}, 5000);
+        setTimeout(() => {  
+            const elem = document.getElementById('modal');
+            elem.classList.add('fade-out');
+            setTimeout(() => {
+                setShowTicket(0);
+                elem.classList.remove('fade-out');
+            }, 1000)
+    
+        }, 5000);
         
     };
 

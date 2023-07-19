@@ -40,6 +40,20 @@
 	}
 }
 
+.fade-out {
+    animation: show 0.8s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes show {
+    0% {
+      opacity: 1
+    }
+    100% {
+      opacity: 0.1
+    }
+  }
+
   .modal-content {
 
   }

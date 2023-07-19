@@ -4,8 +4,9 @@ import LaunchImageMobile from "../../assets/Launchscreen_mobile.png";
 import LaunchImage from "../../assets/Launchscreen_desktop.png";
 
 const LaunchScreen = () => {
+
     return (
-        <div className="BackgroundLaunch">
+        <div id='container' className="BackgroundLaunch">
             <img src={window.screen.width < 930 ? LaunchImageMobile : LaunchImage} className="Img" />
         </div>
     );
