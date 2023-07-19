@@ -1,0 +1,105 @@
+.PatriarchyMob {
+    height: 14.519427402862986vh;
+}
+
+.MirrorballMob {
+    height: 14.519427402862986vh;
+}
+
+.CelebratingMob {
+    height: 3.067484662576687vh;
+    margin-bottom: 16px;
+}
+
+.AgeMob {
+    height: 16.359918200409vh;
+}
+
+.CeoMob {
+    position: absolute;
+    height: 30px;
+    bottom: 10px;
+    right: 24px;
+}
+
+.GingerMob {
+    width: 47.160714285714286vw;
+}
+
+.GabiMob {
+    width: 200px;
+    position: absolute;
+    right: 0;
+}
+
+.YouMob {
+    height: 100px;
+    position: absolute;
+    z-index: 8;
+    right: 142px;
+    top: 100px;
+}
+
+.BarbieMob {
+    left: 0px;
+    z-index: 10;
+    position: absolute;
+    width: 24.580357vw;
+    bottom: -46px;
+}
+
+.TicketMob {
+    width: 40.160714vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+.AgeWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+}
+
+.ThirdRow {
+    padding: 0 37px;
+}
+
+.forthRow {
+    display: flex;
+    position: relative;
+}
+
+.secondRow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    width: 100vw;
+    margin-bottom: 16px;
+    align-items: baseline;
+}
+
+@media (max-width: 600px) {
+    .Background {
+        display: block;
+    }
+    .Date {
+        margin-top: 2.538vh;
+    }
+    .Date, .Local {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import './inviteScreen.css';
-import MirrorballImage from "../../Mirrorball_mobile_export.png";
+import './inviteMobile.css';
+import MirrorballImage from "../../Mirrorball_mobile.png";
 import PatriarchyImage from '../../Patriarchy_mobile_export.png'
 import TicketImage from '../../Ticket_mobile_export.png';
 import AgeImage from '../../Age_mobile_export.png';
@@ -33,31 +33,41 @@ const InviteMobileScreen = () => {
 
     return (
          <div className="Background">
-            <div id='modal' className='modal'>
+            <div id='modal' onClick={() => setShowTicket(0)} className='modal'>
                 <img className='modal-content' onClick={() => { handleTicketClick(1)}} src={showTicket > 1 ? DrinkTicket : LitraoTicket} />
             </div>
-             <div className="Column">
-                 <div>
-                    <img onClick={() => { handleTicketClick(1)}} src={MirrorballImage} className="Mirrorball" />
-                    <img onClick={() => { handleTicketClick(1)}} src={PatriarchyImage} className="Patriarchy" />
-                    <img src={GingerImage} className="Ginger" />
-                    <img src={TicketImage} className="Ticket" />
-                    <img src={BarbieImage} className="Barbie" />
-                    <img src={YouImage} className="You" />
-                    <img src={GabiImage} className="Gabi" />
-                 </div>
-             </div>
-             <div  className="Column">
-                 <img src={Celebrating} className="Celebrating" />
-                 <img src={AgeImage} className="Age" />
-                 <img onClick={() => { handleTicketClick(2)}} src={CEO} className="Ceo" />
-                 <span className="Date">Dia: 05 de Agosto  |  Hora: 19:30</span>
-                 <span className="Local">Local: Russo Bar (Av. Bento Goncalves, 4183)</span>
-                 <p className="Pink">Ir de rosa não é obrigatório, mas fortemente recomendado!</p>
-                 <span className="Info">Favor confirmar presença até dia 01 de Agosto.</span>
-                 <span className="Info3">Podem levar acompanhantes, só me avisar!</span>
-                 <span className="Info2">Comidinhas e bebidas do bar (dica: eles tem uma pizza maravilhosa!).</span>
-             </div>
+            <div className='Header'>
+                <img onClick={() => { handleTicketClick(1)}} src={PatriarchyImage} className="PatriarchyMob" />
+                <img onClick={() => { handleTicketClick(1)}} src={MirrorballImage} className="MirrorballMob" />
+            </div>
+            <div className='secondRow'>
+                <img src={Celebrating} className="CelebratingMob" />
+                <div className='AgeWrapper'>
+                    <img src={AgeImage} className="AgeMob" />
+                    <img onClick={() => { handleTicketClick(2)}} src={CEO} className="CeoMob" />
+                </div>
+                <span className="Date">Dia: 05 de Agosto  |  Hora: 19:30</span>
+                <span className="Local">Local: Russo Bar (Av. Bento Goncalves, 4183)</span>
+            </div>
+            <div className='ThirdRow'>
+                <div className='flex'>
+                    <div className='relative'>
+                        <img src={GingerImage} className="GingerMob" />
+                        <img src={BarbieImage} className="BarbieMob" />
+                    </div>
+                    <img src={TicketImage} className="TicketMob" />
+                </div>
+                <div className='forthRow'>
+                    <img src={YouImage} className="YouMob" />
+                    <img src={GabiImage} className="GabiMob" />
+                </div>
+            </div>
+            {/* <div>
+                <p className="Pink">Ir de rosa não é obrigatório, mas fortemente recomendado!</p>
+                <span className="Info">Favor confirmar presença até dia 01 de Agosto.</span>
+                <span className="Info3">Podem levar acompanhantes, só me avisar!</span>
+                <span className="Info2">Comidinhas e bebidas do bar (dica: eles tem uma pizza maravilhosa!).</span>
+            </div> */}
          </div>
     );
 };
