@@ -27,7 +27,7 @@ const InviteMobileScreen = () => {
     const handleTicketClick = (value) => {
         setShowTicket(value);
 
-        setTimeout(() => { setShowTicket(0)}, 3000);
+        setTimeout(() => { setShowTicket(0)}, 5000);
         
     };
 

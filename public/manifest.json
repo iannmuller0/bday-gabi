@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "Ginger_export.png",
+      "src": "Ginger192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "Ginger_export.png",
+      "src": "Ginger512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
