@@ -34,7 +34,7 @@ const InviteMobileScreen = () => {
     return (
          <div className="Background">
             <div id='modal' onClick={() => setShowTicket(0)} className='modal'>
-                <img className='modal-content' src={showTicket > 1 ? DrinkTicket : LitraoTicket} />
+                <img className='modal-content' onClick={() => { handleTicketClick(1)}} src={showTicket > 1 ? DrinkTicket : LitraoTicket} />
             </div>
             <div className='Header'>
                 <img onClick={() => { handleTicketClick(1)}} src={PatriarchyImage} className="PatriarchyMob" />
@@ -58,16 +58,18 @@ const InviteMobileScreen = () => {
                     <img src={TicketImage} className="TicketMob" />
                 </div>
                 <div className='forthRow'>
+                <div className='relative'>
                     <img src={YouImage} className="YouMob" />
                     <img src={GabiImage} className="GabiMob" />
                 </div>
+                </div>
             </div>
-            {/* <div>
-                <p className="Pink">Ir de rosa não é obrigatório, mas fortemente recomendado!</p>
-                <span className="Info">Favor confirmar presença até dia 01 de Agosto.</span>
-                <span className="Info3">Podem levar acompanhantes, só me avisar!</span>
-                <span className="Info2">Comidinhas e bebidas do bar (dica: eles tem uma pizza maravilhosa!).</span>
-            </div> */}
+            <div className='TextRow'>
+                <p className="Pink" style={{margin: '0 0 10px 0', maxWidth: '100%'}}>Ir de rosa não é obrigatório, mas fortemente recomendado!</p>
+                <p className="Info" style={{margin: 0, maxWidth: '100%'}}>Favor confirmar presença até dia 01 de Agosto.</p>
+                <p className="Info3" style={{margin: 0, maxWidth: '100%'}}>Podem levar acompanhantes, só me avisar!</p>
+                <p className="Info2" style={{margin: 0, maxWidth: '100%'}}>Comidinhas e bebidas do bar (dica: eles tem uma pizza maravilhosa!).</p>
+            </div>
          </div>
     );
 };

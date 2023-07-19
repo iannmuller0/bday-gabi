@@ -1,9 +1,9 @@
 .PatriarchyMob {
-    height: 14.519427402862986vh;
+    height: 13.219427402862986vh;
 }
 
 .MirrorballMob {
-    height: 14.519427402862986vh;
+    height: 12.519427402862986vh;
 }
 
 .CelebratingMob {
@@ -12,14 +12,14 @@
 }
 
 .AgeMob {
-    height: 16.359918200409vh;
+    height: 14.359918200409vh;
 }
 
 .CeoMob {
     position: absolute;
     height: 2.74499vh;
-    bottom: 10px;
-    right: 24px;
+    bottom: 4px;
+    right: 15px;
 }
 
 .GingerMob {
@@ -29,27 +29,29 @@
 .GabiMob {
     width: 49.160714vw;
     position: absolute;
-    right: 0;
+    top: -108px;
+    left: 155px;
 }
 
 .YouMob {
     height: 10.224948875255624vh;
     position: absolute;
     z-index: 8;
-    right: 142px;
-    top: 100px;
+    left: 75px;
+    top: -14px;
 }
 
 .BarbieMob {
     left: 0px;
     z-index: 10;
     position: absolute;
-    width: 24.580357vw;
-    bottom: -46px;
+    width: 21.580357vw;
+    bottom: -28px;
 }
 
 .TicketMob {
     width: 40.160714vw;
+    height: 100%;
 }
 
 .flex {
@@ -73,7 +75,15 @@
 
 .forthRow {
     display: flex;
-    position: relative;
+}
+
+.TextRow {
+    margin-top: 123px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 35px;
 }
 
 .secondRow {
@@ -85,10 +95,7 @@
 .Header {
     display: flex;
     justify-content: space-around;
-    padding: 0 10px;
     width: 100vw;
-    margin-bottom: 16px;
-    align-items: baseline;
 }
 
 @media (max-width: 600px) {
@@ -103,4 +110,21 @@
         font-size: 18px;
         margin-bottom: 0;
     }
+    .modal-content {
+        height: 70%;
+    }
 }
+
+.PatriarchyMob:hover,.GingerMob:hover,.TicketMob:hover,.CeoMob:hover,.YouMob:hover,.GabiMob:hover,.BarbieMob:hover {
+    animation-name: shake-it-off-t-swift;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    }
+    @keyframes shake-it-off-t-swift {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(5deg); }
+        50% { transform: rotate(0eg); }
+        75% { transform: rotate(-5deg); }
+        100% { transform: rotate(0deg); }
+      }
