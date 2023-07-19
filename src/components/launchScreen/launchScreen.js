@@ -1,7 +1,7 @@
 import React from 'react';
 import './launchScreen.css';
-import LaunchImageMobile from "../../Launchscreen_mobile.png";
-import LaunchImage from "../../Launchscreen_desktop.png";
+import LaunchImageMobile from "../../assets/Launchscreen_mobile.png";
+import LaunchImage from "../../assets/Launchscreen_desktop.png";
 
 const LaunchScreen = () => {
     return (

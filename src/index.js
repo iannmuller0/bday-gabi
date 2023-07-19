@@ -13,8 +13,8 @@ import Home from "./Home";
 const router = createBrowserRouter(
     createRoutesFromElements(
         <>
-            <Route path="/" element={<Home />} />
-            <Route path="save_the_date" element={<App />} />
+            <Route path="/" element={<App />} />
+            <Route path="iannGostoso" element={<Home />} />
         </>
     )
 );

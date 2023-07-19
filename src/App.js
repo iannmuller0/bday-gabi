@@ -1,5 +1,5 @@
-import textosImage from './Textos.png';
-import textosImageMobile from './TextosMobile.png';
+import textosImage from './assets/Textos.png';
+import textosImageMobile from './assets/TextosMobile.png';
 import './App.css';
 
 function App() {

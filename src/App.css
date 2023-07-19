@@ -1,5 +1,5 @@
 .App {
-  background-image: url("./Background.png");
+  background-image: url("./assets/Background.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 
 @media (max-width: 930px) {
  .App {
-   background-image: url("./BackgroundMobile.png");
+   background-image: url("./assets/BackgroundMobile.png");
  }
   .App-logo {
     margin: 0.84vh;

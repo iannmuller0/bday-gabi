@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import './inviteMobile.css';
-import MirrorballImage from "../../Mirrorball_mobile.png";
-import PatriarchyImage from '../../Patriarchy_mobile_export.png'
-import TicketImage from '../../Ticket_mobile_export.png';
-import AgeImage from '../../Age_mobile_export.png';
-import BarbieImage from '../../Barbie_mobile_export.png';
-import GabiImage from '../../Gabi_mobile_export.png';
-import GingerImage from '../../Ginger_mobile_export.png';
-import YouImage from '../../You_mobile_export.png';
-import Celebrating from '../../Celebrating_export.png';
-import CEO from '../../CEO_export.png';
-import DrinkTicket from '../../Drink_site_export.png';
-import LitraoTicket from '../../Litrao_site_export.png';
+import MirrorballImage from "../../assets/Mirrorball_mobile.png";
+import PatriarchyImage from '../../assets/Patriarchy_mobile_export.png'
+import TicketImage from '../../assets/Ticket_mobile_export.png';
+import AgeImage from '../../assets/Age_mobile_export.png';
+import BarbieImage from '../../assets/Barbie_mobile_export.png';
+import GabiImage from '../../assets/Gabi_mobile_export.png';
+import GingerImage from '../../assets/Ginger_mobile_export.png';
+import YouImage from '../../assets/You_mobile_export.png';
+import Celebrating from '../../assets/Celebrating_export.png';
+import CEO from '../../assets/CEO_export.png';
+import DrinkTicket from '../../assets/Drink_site_export.png';
+import LitraoTicket from '../../assets/Litrao_site_export.png';
 
 const InviteMobileScreen = () => {
     const [showTicket, setShowTicket] = useState(0);
