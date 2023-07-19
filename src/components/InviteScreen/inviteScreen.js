@@ -33,8 +33,8 @@ const InviteScreen = () => {
 
     return (
          <div className="Background">
-            <div id='modal' className='modal'>
-                <img className='modal-content' onClick={() => { handleTicketClick(1)}} src={showTicket > 1 ? DrinkTicket : LitraoTicket} />
+            <div id='modal'  className='modal' onClick={() => { setShowTicket(0)}} >
+                <img className='modal-content' src={showTicket > 1 ? DrinkTicket : LitraoTicket} />
             </div>
              <div className="Column">
                  <div>

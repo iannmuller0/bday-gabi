@@ -34,7 +34,7 @@ const InviteMobileScreen = () => {
     return (
          <div className="Background">
             <div id='modal' onClick={() => setShowTicket(0)} className='modal'>
-                <img className='modal-content' onClick={() => { handleTicketClick(1)}} src={showTicket > 1 ? DrinkTicket : LitraoTicket} />
+                <img className='modal-content' src={showTicket > 1 ? DrinkTicket : LitraoTicket} />
             </div>
             <div className='Header'>
                 <img onClick={() => { handleTicketClick(1)}} src={PatriarchyImage} className="PatriarchyMob" />

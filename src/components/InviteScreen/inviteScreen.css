@@ -1,5 +1,6 @@
 .Background {
-    background: #88CDE9;
+    background-image: url('../../assets/Backgorund_export.png');
+    background-size: cover;
     display: flex;
     height: 100vh;
 }
@@ -27,10 +28,20 @@
     display: none;
     justify-content: center;
     align-items: center;
+    animation:fadein 1s;
   }
   
+  @keyframes fadein {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
   .modal-content {
-    cursor: pointer;
+
   }
 
 .Mirrorball {

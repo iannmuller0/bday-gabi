@@ -17,7 +17,7 @@
 
 .CeoMob {
     position: absolute;
-    height: 30px;
+    height: 2.74499vh;
     bottom: 10px;
     right: 24px;
 }
@@ -27,13 +27,13 @@
 }
 
 .GabiMob {
-    width: 200px;
+    width: 49.160714vw;
     position: absolute;
     right: 0;
 }
 
 .YouMob {
-    height: 100px;
+    height: 10.224948875255624vh;
     position: absolute;
     z-index: 8;
     right: 142px;
@@ -94,6 +94,7 @@
 @media (max-width: 600px) {
     .Background {
         display: block;
+        background-image: url('../../assets/Background_mobile_export.png');
     }
     .Date {
         margin-top: 2.538vh;
